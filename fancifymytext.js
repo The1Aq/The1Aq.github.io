@@ -21,3 +21,4 @@ function moo() {
     var parts = str.value.split(".");  
     str.value = parts.join(suffix);
 }
+//test
