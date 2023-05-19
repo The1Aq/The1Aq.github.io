@@ -29,10 +29,10 @@
         <p>
           <strong>Font Size: </strong>
           <label>
-            <input checked type="radio" name="text-size" value="12pt">12pt</input>
+            <input id="normal-size" checked type="radio" name="text-size" value="12pt">12pt</input>
           </label>
           <label>
-            <input type="radio" name="text-size" value="24pt">24pt</input>
+            <input id="bigger-size" type="radio" name="text-size" value="24pt">24pt</input>
           </label>
         </p>
         
@@ -40,7 +40,7 @@
           <label>
             <strong>All-Caps:</strong>
             <input id="all-caps" type="checkbox" name="uppercase-ouput" value="uppercase"/>
-          </label>
+             </label>
         </p>
 
         <button id="encrypt-it">Encrypt It!</button>
@@ -51,6 +51,8 @@
         <h2>Result:</h2>
         <p id="result"></p>
       </div>
+      <script src="encrypt-it.js"></script>
     </main>
+ 
   </body>
 </html>
